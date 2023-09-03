@@ -1,0 +1,209 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #333333;
+    padding: 0rem 3rem;
+    
+}
+.imagen-encabezado{
+    width: 8%;
+    min-width: 6%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header a img {
+    
+    width: 100%;
+    
+}
+
+.panel{
+    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: end;
+    
+}
+
+
+.panel ul{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+    padding: 0rem ;
+
+}
+.panel ul li a{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    color: #CCCCCC;
+    text-decoration: none;
+
+}
+
+main section{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.lateral {
+    background-color: #f0f0f0; 
+    color: black; 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    row-gap: 1.3rem;   
+    align-items: center;
+    
+}
+
+.lateral figure{
+    width: 80%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+
+.lateral img    {
+    width: 100%;
+
+}
+
+.lateral figcaption{
+    font-size: 0.4rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+.lateral .tabla-titulo{
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    margin: 0rem auto 1.5rem auto;
+    text-align: center;
+}
+.lateral .tabla{
+    width: 90%;
+
+    background-color: #CCCCCC; 
+    padding: 2rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    border: 2px solid #333;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2); 
+
+}
+.lateral .fila{
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+.lateral .etiqueta{
+    width: 50%; 
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 0.9rem;
+    color:   #333 ;
+    text-align: justify;
+}
+.lateral .dato{
+    
+    flex: 1; 
+    font-size: 0.8rem;
+    color: black;
+    text-align: end;
+}
+
+main section .informacion-general {
+    
+    width: 60%;
+    padding: 1rem;
+    color: black;
+    
+}  
+.informacion-general article{
+    padding: 2rem; 
+
+}
+
+.titulo1{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem auto;
+
+}
+
+.titulo2{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.informacion-general p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+
+}
+
+footer{
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+
+    width: 35%;
+    padding: 0rem 1rem ;
+}
+footer img{
+    width: 100%;
+    
+
+}
+footer div{
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer span{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+
+
+

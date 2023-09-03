@@ -1,0 +1,126 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #333333;
+    padding: 0rem 3rem;
+    
+}
+.imagen-encabezado{
+    width: 8%;
+    min-width: 100px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+
+}
+
+header a img {
+    
+    width: 100%;
+    
+}
+
+.panel{
+    
+    width: 80%;
+    display: flex;
+    
+    color: white;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.panel ul{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0rem ;
+
+}
+.panel ul li a{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4rem;
+    color: #CCCCCC;
+    text-decoration: none;
+
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+main{
+
+    padding: 2rem;
+    
+    background-color: #f0f0f0;
+}
+.card-body{
+
+    background-color: #CCCCCC;
+}
+h5{
+    font-family: 'Anton', sans-serif;
+    color: aliceblue;
+    
+}
+
+.card-text{
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem ;
+    color: #333333;
+}
+
+footer{
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+
+    width: 35%;
+    padding: 0rem 1rem ;
+}
+footer img{
+    width: 100%;
+    
+
+}
+
+footer div{
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer span{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #f0f0f0;
+}
+
